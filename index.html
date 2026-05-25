@@ -2,16 +2,45 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Test JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Chat IA</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>TEST BOTÓN</h1>
+    <div class="chat-container">
 
-<button onclick="alert('FUNCIONA JS')">
-    Click aquí
-</button>
+        <div class="chat-header">
+            🤖 Mini Chat IA
+        </div>
+
+        <div class="chat-box" id="chatBox">
+
+            <div class="message bot">
+                Hola 👋 Soy tu asistente IA.
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <input 
+                type="text" 
+                id="userInput"
+                placeholder="Escribe un mensaje..."
+            >
+
+            <button onclick="sendMessage()">
+                Enviar
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
 
 </body>
 </html>
