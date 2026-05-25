@@ -1,3 +1,3 @@
-function saludar() {
-    alert("¡Bienvenido a JavaScript!");
+function start() {
+    alert("🔥 Funciona perfectamente");
 }
